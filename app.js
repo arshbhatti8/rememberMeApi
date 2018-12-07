@@ -8,7 +8,7 @@ const contactsRoutes = require('./routes/contacts');
 
 mongoose.connect(
     'mongodb://arshbhatti8:' +
-    process.env.MONGO_ATLAS_PW +
+    'aeronautical' +
     '@cluster0-shard-00-00-ovbfq.mongodb.net:27017,cluster0-shard-00-01-ovbfq.mongodb.net:27017,' +
     'cluster0-shard-00-02-ovbfq.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin');
 

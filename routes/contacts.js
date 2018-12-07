@@ -14,7 +14,8 @@ router.post('/add',(req,res,next)=>{
         linkedin:req.body.linkedin,
         instagram:req.body.instagram,
         facebook:req.body.facebook,
-        notes:req.body.notes
+        notes:req.body.notes,
+        flag:req.body.flag,
     });
 
     contact.save()

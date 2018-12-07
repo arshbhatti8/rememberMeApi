@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fcd4ec4d-7d06-44e2-a917-37886293a10a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/contactsModel.js" afterPath="$PROJECT_DIR$/models/contactsModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/contacts.js" afterPath="$PROJECT_DIR$/routes/contacts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,17 +22,37 @@
         <entry file="file://$PROJECT_DIR$/nodemon.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="34" />
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="46">
+              <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/contacts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactsModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/contactsModel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -55,11 +77,11 @@
         <option value="$PROJECT_DIR$/app,js.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/nodemon.json" />
-        <option value="$PROJECT_DIR$/models/contactsModel.js" />
-        <option value="$PROJECT_DIR$/routes/contacts.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/models/contactsModel.js" />
+        <option value="$PROJECT_DIR$/routes/contacts.js" />
       </list>
     </option>
   </component>
@@ -81,7 +103,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="553" />
     <option name="width" value="820" />
     <option name="height" value="775" />
@@ -108,6 +130,16 @@
             <path>
               <item name="rememberMeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="rememberMeApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rememberMeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rememberMeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rememberMeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rememberMeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -152,18 +184,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544167023975</updated>
-      <workItem from="1544167025635" duration="4945000" />
+      <workItem from="1544167025635" duration="10000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4945000" />
+    <option name="totallyTimeSpent" value="10000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="553" y="0" width="820" height="775" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23017903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.106398806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -193,22 +225,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/contactsModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -236,15 +252,31 @@
     <entry file="file://$PROJECT_DIR$/nodemon.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="34" />
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="46">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/contactsModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>

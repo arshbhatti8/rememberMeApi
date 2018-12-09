@@ -72,4 +72,27 @@ router.get('/:userId',(req,res,next)=>{
         });
 });
 
+router.patch('/:id',(req,res)=>{
+    const id=req.params.id;
+    const user=req.body;
+    console.log(req.body);
+    contactsModel.update({id:id},user)
+        .exec()
+        .then(result=>{
+            console.log(result);
+            res.status(200).json({
+                message:"User Edited Successfully",
+                result:result
+            })
+        })
+        .catch(err=>{
+            console.log(err);
+            res.status(500).json({
+                error:err
+            });
+        });
+
+});
+
+
 module.exports=router;

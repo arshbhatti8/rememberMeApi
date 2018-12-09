@@ -4,6 +4,7 @@ const router=express.Router();
 const contactsModel = require('../models/contactsModel');
 
 router.post('/add',(req,res,next)=>{
+    console.log(req.body);
 
     const contact=new contactsModel({
         id:req.body.id,
@@ -31,6 +32,22 @@ router.post('/add',(req,res,next)=>{
                 error:err,
                 message:"Error in storing to database"
             });
+        })
+});
+
+router.get('/',(req,res,next)=>{
+    contactsModel
+        .find()
+        .exec()
+        .then(docs=>{
+            console.log(docs);
+            res.status(200).json(docs);
+        })
+        .catch(err=>{
+            console.log(err);
+            res.status(500).json({
+                error:err
+            })
         })
 });
 
